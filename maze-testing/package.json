@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/maze-testing/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:maze-testing": "node dist/maze-testing/server/server.mjs"
